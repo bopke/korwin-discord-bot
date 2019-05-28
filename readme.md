@@ -10,6 +10,12 @@ go get github.com/bopke/korwin
 go get github.com/bwmarrin/discordgo
 ```
 
+Uruchomienie
+--
+`./korwin-discord-bot token`
+np.
+`./korwin-discord-bot FTbdJUIERfhaidsWUQQRHnjdsakh43JRHKNNAFD1309KFJaladklj3190as`
+
 Działanie
 --
 ![Przykład działania](https://i.imgur.com/5h9QkZk.png)
