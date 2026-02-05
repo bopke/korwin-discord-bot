@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	session, err := discordgo.New("Bot " + os.Args[1])
+	session, err := discordgo.New("Bot " + os.Getenv("TOKEN"))
 	if err != nil {
 		panic(err)
 	}
